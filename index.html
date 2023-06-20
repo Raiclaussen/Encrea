@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,400&display=swap" rel="stylesheet">
+  <title>Encrea</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="dark-header">
+    <nav class="navbar">
+      <div class="logo">
+        <img src="/img/logo.png" alt="Logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="./index.html">Inicio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <h1>Agencia Digital</h1>
+
+    <section id="products">
+
+            <!-- <div class="product" data-product-id="1">
+              <h2>Diseño + Impresion de tarjetas</h2>
+              <img src="./img/impresiondetarjetas.png" alt="Producto 1">
+              <p>Precio: <span class="price"> S/75.00</span></p>
+              <input type="number" class="quantity" min="1" value="1">
+              <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+      
+            <div class="product" data-product-id="2">
+              <h2>Diseño + Impresión de folletos</h2>
+              <img src="./img/impresionfolletos.jpg" alt="Producto 2">
+              <p>Precio: <span class="price">S/100.00</span></p>
+              <input type="number" class="quantity" min="1" value="1">
+              <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+      
+            <div class="product" data-product-id="3">
+              <h2>Diseño + Impresión de agenda</h2>
+              <img src="./img/imprensiondeagenda.jpg" alt="Producto 3">
+              <p>Precio: <span class="price">S/80.00</span></p>
+              <input type="number" class="quantity" min="1" value="1">
+              <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+      
+            <div class="product" data-product-id="4">
+              <h2>Diseño + Estampados de polos</h2>
+              <img src="./img/estampadospolos.jpg" alt="Producto 4">
+              <p>Precio: <span class="price">S/50.00</span></p>
+              <input type="number" class="quantity" min="1" value="1">
+              <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+      
+            <div class="product" data-product-id="5">
+              <h2>Diseño + Banner</h2>
+              <img src="./img/banner.jpg" alt="Producto 5">
+              <p>Precio: <span class="price">S/120.00</span></p>
+              <input type="number" class="quantity" min="1" value="1">
+              <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+      
+            <div class="product" data-product-id="6">
+              <h2>Gigantografias</h2>
+              <img src="./img/gigantografias.jpg" alt="Producto 6">
+              <p>Precio: <span class="price">S/45.00</span></p>
+              <input type="number" class="quantity" min="1" value="1">
+              <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+      
+            <div class="product" data-product-id="7">
+              <h2>Diseño grafico</h2>
+              <img src="./img/disenografico.jpg" alt="Producto 7">
+              <p>Precio: <span class="price">S/300.00</span></p>
+              <input type="number" class="quantity" min="1" value="1">
+              <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+      
+            <div class="product" data-product-id="8">
+              <h2>Diseño de stickets en vinil</h2>
+              <img src="./img/sticketsvinil.jpg" alt="Producto 8">
+              <p>Precio: <span class="price">S/35.00</span></p>
+              <input type="number" class="quantity" min="1" value="1">
+              <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+      
+            <div class="product" data-product-id="9">
+              <h2>Diseño + Impresión de calendario</h2>
+              <img src="./img/calendarioimpresion.jpg" alt="Producto 9">
+              <p>Precio: <span class="price">S/45.00</span></p>
+              <input type="number" class="quantity" min="1" value="1">
+              <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+            
+            <div class="product" data-product-id="10">
+              <h2>Diseño + encuadernación de cuadernos</h2>
+              <img src="./img/encuadernacioncuadernos.jpg" alt="Producto 10">
+              <p>Precio: <span class="price">S/40.00</span></p>
+              <input type="number" class="quantity" min="1" value="1">
+              <button class="add-to-cart">Agregar al carrito</button>
+            </div> -->
+    </section>
+
+    <section id="cart">
+      <!-- Aquí se muestra el contenido del carrito -->
+      <h2>Carrito de Compras</h2>
+      <ul id="cart-items">
+        <!-- Los elementos del carrito se agregan aquí dinámicamente -->
+      </ul>
+      <p>Total: <span id="cart-total">$0.00</span></p>
+      <button id="checkout-btn">Procesar Pago</button>
+    </section>
+  </main>
+
+  <footer class="dark-footer">
+    <p>© 2023 iclauagency. Todos los derechos reservados.</p>
+  </footer>
+
+  
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="/main.js"></script>
+</body>
+</html>
